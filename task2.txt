@@ -1,0 +1,28 @@
+2.Write a blog about objects and its internal representation in Javascript
+
+=>objects are most important data-types forms the building blocks for modern Javascript
+=>There are quite Different from Javascript primitive data types.There are Number, String, Boolean, null, undefined and symbols
+=>These primitive data-types all store in a single value depending on their types
+=>Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+=>An object property name can be any valid JavaScript string, or anything that can be converted to a string, including the empty string
+=>Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+
+  object syntax
+        objectName.propertyName
+=>Object properties are basically the same as ordinary JavaScript variables
+=>You access the properties of an object with a simple dot-notation     
+
+----------> Advantages of objects <------------
+  =>Object are easy to acess 
+  =>In object we are store large amount of data also.
+  =>There is no given specific data type for objects
+  =>Mixed of data are also use in the Object
+      syntax
+          objectName.propertyName
+
+        Exmaple
+             console . log
+                |       |
+             object    key
+
+  =>Objects are unstructured data types 

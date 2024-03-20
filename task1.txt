@@ -1,0 +1,30 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP:
+    =>HTTP stands for Hypertext transfer protocol
+    =>It is used in client-sever communication
+    =>For using HTTP the user will send the request to the sever and the sever will send the response  to the user 
+    Exmaple
+              ----> request ---->
+      client                      sever
+             <---- response <----
+       
+       => In this example client means browers.
+       => And the server means web.
+       => this process are runs in milliseconds
+
+Difference between HTTP1 vs HTTP2
+
+HTTP1:
+     =>HTTP1 are works on the textual format
+     =>There is head of line blocking tha blocks all the request behind it until is doesn't get it all resources
+     =>It uses request resources inlining for use getting multiple pages 
+     =>It compress data by itself  
+ 
+ HTTP2
+     =>HTTP2 are works on the binary protocol
+     =>It allows multiplexing so one tcp connection is required for multiple request
+     =>It uses push frame by server that collect all multiple pages 
+     =>It uses HPACK for data compression 
+     => HTTP2 server push
+     
