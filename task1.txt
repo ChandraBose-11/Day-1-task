@@ -19,7 +19,13 @@ HTTP1:
      =>HTTP1 are works on the textual format
      =>There is head of line blocking tha blocks all the request behind it until is doesn't get it all resources
      =>It uses request resources inlining for use getting multiple pages 
-     =>It compress data by itself  
+     =>It compress data by itself 
+     =>HTTP is widely used and allows for easy communication.
+     
+       ---------->  Disadvantages of HTTP1 <---------
+       =>Sensitive information stored, resource constraints.
+       =>HTTP can be used to track and monitor users.
+
  
  HTTP2
      =>HTTP2 are works on the binary protocol
